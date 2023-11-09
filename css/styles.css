@@ -1,0 +1,128 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr{
+    width: 80%;
+    margin: auto;   
+    border: 1px solid rgb(81, 81, 81);
+}
+
+div{
+    height: auto;
+    margin: auto;
+}
+
+.azul{
+    color: blue;
+}
+
+.rojo{
+    color: red;
+}
+
+#ejercicio4 h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#ejercicio5 .p1{
+    color: green;
+    text-decoration: underline;
+}
+
+#ejercicio5 .p2{
+    color: red;
+    font-weight: bold;
+}
+
+#ejercicio5 .p3{
+    text-decoration: overline underline;
+}
+
+#ejercicio5 .p4{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#ejercicio5 .p5{
+    font-weight: bold;
+    color: blue;
+}
+
+#ejercicio5 .p6{
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+}
+
+#ejercicio6 .diario1{
+    font-size: 25px;
+    text-decoration: underline;
+    color: yellow;
+    font-weight: bold;
+}
+
+#ejercicio6 .diario1:hover{    
+    color: black;
+}
+
+#ejercicio6 .diario2{
+    font-size: 25px;
+    text-decoration: underline;
+    color: purple;
+    font-weight: bold;
+}
+
+#ejercicio6 .diario2:hover{
+    color: chocolate;
+}
+
+#ejercicio7 nav{
+    background-color: rgb(219, 159, 169);
+}
+
+#ejercicio7 ul{
+    display: inline-flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#ejercicio7 li{
+    padding: 15px 10px;
+    list-style: none;
+}
+
+#ejercicio7 li:hover{
+    background-color: blue;
+}
+
+#ejercicio7 i{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+}
+
+#ejercicio8 table{
+    background-color: yellow;
+    border: 1px dotted black;
+    padding: 0px;
+}
+
+#ejercicio8 table th::first-letter{
+    font-weight: bold;
+}
+
+#ejercicio8 table th{
+    color: red;
+    text-align: center;
+    font-style: italic;
+    border: none;
+}
+
+#ejercicio8 table td{
+    padding: 0px;
+    border: 1px dotted black;
+}
